@@ -1,17 +1,12 @@
 package seperate;
-
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class ValidateTable {
-
 	public static void main(String[] args) {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
@@ -34,15 +29,14 @@ public class ValidateTable {
 		for(int b=a+1;b<trowval.length;b++) {
 				int res=trowval[b].compareTo(trowval[a]);
 				if(!(res>0)){
+					//for ascending order we need to get positive values if we get negative values then it is in descending order
 					System.out.println("The Table is not sorted "+trowval[a]+":::"+trowval[b]);
 					sortFunctionality=false;
-					break outer;
-					
+					break outer;	
 				}
 				else {
 					System.out.println("The Table is sorted "+trowval[a]+":::"+trowval[b]);
 				}
-				
 			}
 		}
 		if(sortFunctionality)
