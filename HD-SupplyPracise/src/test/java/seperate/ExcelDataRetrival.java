@@ -1,7 +1,5 @@
 package seperate;
 import java.io.FileInputStream;
-import java.util.Arrays;
-
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -19,7 +17,6 @@ public class ExcelDataRetrival {
 			for(int i=0;i<iRow-1;i++) {
 				for(int j=0;j<noOfColumns;j++) {
 					DataFormatter df=new DataFormatter();
-					
 					//String val = df.formatCellValue(sheet.getRow(i).getCell(j));
 					datae[i][j]=df.formatCellValue(sheet.getRow(i+1).getCell(j));
 					//System.out.println(val);	

@@ -2,20 +2,16 @@ package seperate;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.List;
-
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class AddToExcel {
 
-	public static void main(String[] args) throws Exception {
-		
+	public static void main(String[] args) throws Exception {		
 		FileInputStream fis= new FileInputStream("C:\\Users\\kaset\\git\\HD-SupplyPracise\\HD-SupplyPracise\\excelData\\data12.xlsx");
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
 		XSSFSheet sheet=wb.getSheet("Sheet1");

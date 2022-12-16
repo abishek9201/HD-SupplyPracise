@@ -19,13 +19,24 @@ public class CompareExcel {
 		int row2=sheet3.getPhysicalNumberOfRows();
 		int col2=sheet3.getRow(0).getPhysicalNumberOfCells();
 		
+	    if(row1==row2) {
+	    	System.out.println("Both the sheets have equal no of rows ");	
+	    }
+	    else {
+	    	System.out.println("Both the sheets have different no of rows ");	
+	    }
+	    if(col1==col2) {
+	    	System.out.println("Both the sheets have equal no of columns ");	
+	    }
+	    else {
+	    	System.out.println("Both the sheets have different no of columns ");	
+	    }
 		List<String> sheetsNameOfWb1 = new ArrayList<>();
 		List<String> sheetsNameOfWb2 = new ArrayList<>();
 
 		for(int i=0;i<row1-1;i++) {
 			for(int j=0;j<col1;j++) {
 				sheetsNameOfWb1.add(sheet2.getRow(i).getCell(j).getStringCellValue());
-				sheetsNameOfWb2.add(sheet3.getRow(i).getCell(j).getStringCellValue());
 				}
 			}
 		for(int i=0;i<row2-1;i++) {
