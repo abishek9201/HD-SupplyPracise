@@ -12,7 +12,7 @@ public class NewTry {
 		try {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--start-maximized");
+			//options.addArguments("--start-maximized");
 			WebDriver driver = new ChromeDriver(options);
 			driver.get("https://www.google.co.in/");
 			driver.findElement(By.name("q")).sendKeys("oneplus mobile");
