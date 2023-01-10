@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="actionsClass.MouseOver">
+      <class name="reportsTest.BasicTest">
         <methods>
-          <include name="closeApplication"/>
-          <include name="before"/>
-          <include name="happy"/>
-          <include name="doubleClick"/>
-          <include name="startApplication"/>
+          <include name="StudentLogin"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- actionsClass.MouseOver -->
+      </class> <!-- reportsTest.BasicTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
