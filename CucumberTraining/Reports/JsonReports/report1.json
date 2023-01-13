@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-13T07:40:01.521Z",
+        "line": 3,
+        "name": "Validate Search functionality with valid data",
+        "description": "",
+        "id": "google-search-funtionality;validate-search-functionality-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3283291700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "google is open",
+            "match": {
+              "location": "GoogleSearch.StepDefination.google_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 214586400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Text is entered",
+            "match": {
+              "location": "GoogleSearch.StepDefination.text_is_entered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2099588900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on search",
+            "match": {
+              "location": "GoogleSearch.StepDefination.click_on_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142920700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Title check",
+            "match": {
+              "location": "GoogleSearch.StepDefination.title_check()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Google Search Funtionality",
+    "description": "",
+    "id": "google-search-funtionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/GoogleSearch/Search.feature",
+    "tags": []
+  }
+]
