@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="12.574">
+    <testcase classname="Testing SwagLabs" name="Validate login page" time="4.304">
+        <system-out><![CDATA[Given Go to login page......................................................passed
+When enter id "standard_user" and Enter code "secret_sauce".................passed
+Then Verify user............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing SwagLabs" name="Validate login page 2" time="7.973">
+        <failure message="Cannot locate an element using xpath=//span[@class='title'][text()='Products']&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ABIPC', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given Go to login page......................................................passed
+When enter id "Abishek" and Enter code "12345"..............................passed
+Then Verify user............................................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//span[@class='title'][text()='Products']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABIPC', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+	at pagefactory.SwagLabsPF.verify(SwagLabsPF.java:31)
+	at stepDefinations.SwagSD.verify_user(SwagSD.java:38)
+	at ✽.Verify user(file:///C:/Users/kaset/git/HD-SupplyPracise/CucumberTraining/src/test/resources/Features/SwagLabs.feature:6)
+]]></failure>
+    </testcase>
+</testsuite>

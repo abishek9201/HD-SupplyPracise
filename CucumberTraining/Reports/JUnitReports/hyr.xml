@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="16.096">
+    <testcase classname="verify hyr page" name="Verify Basic Controls" time="8.61">
+        <system-out><![CDATA[Given Navigate to Url.......................................................passed
+When Enter  firstname "Abishek".............................................passed
+And Enter lastname 'K'......................................................passed
+And Click Gender............................................................passed
+And Click Language..........................................................passed
+And Enter Gmail "Abishek@gmail.com".........................................passed
+And Enter password "12345"..................................................passed
+Then Click Register.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verify hyr page" name="Verify Basic Controls 2" time="7.177">
+        <system-out><![CDATA[Given Navigate to Url.......................................................passed
+When Enter  firstname "Shiva"...............................................passed
+And Enter lastname "Ganesh".................................................passed
+And Click Gender............................................................passed
+And Click Language..........................................................passed
+And Enter Gmail "sivaGanesh@gmail.com"......................................passed
+And Enter password "678910".................................................passed
+Then Click Register.........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

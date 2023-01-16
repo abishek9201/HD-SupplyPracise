@@ -4,7 +4,7 @@ Feature: Login Parameters
     Given Naviagte to login page
     And Validate login page
     When Enter <Username> and <Password>
-    And Click on login button
+    And Click on login Bar
     Then Validate user
 
     Examples: 

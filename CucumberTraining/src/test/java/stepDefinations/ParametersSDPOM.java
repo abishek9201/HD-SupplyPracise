@@ -13,10 +13,12 @@
 //import io.cucumber.java.en.Then;
 //import io.cucumber.java.en.When;
 //import io.github.bonigarcia.wdm.WebDriverManager;
+//import pages.LoginPage;
 //
 //
-//public  class ParametersSD{
+//public  class ParametersSDPOM{
 //	WebDriver driver;
+//	LoginPage lp;
 //	@Given("Naviagte to login page")
 //	public void naviagte_to_login_page() {
 //		WebDriverManager.chromedriver().setup();
@@ -35,17 +37,18 @@
 //
 //	@When("Enter {string} and {string}")
 //	public void enter_and(String string, String string2)  {
-//	    driver.findElement(By.id("name")).sendKeys(string);
-//	    driver.findElement(By.id("password")).sendKeys(string2);
+//		lp=new LoginPage(driver);
+//		lp.enterUsername(string);
+//		lp.enterPassword(string2);
 //	}
 //	@When("Click on login Bar")
 //	public void Click_on_login_Bar() {
-//		driver.findElement(By.id("login")).click();
+//		lp.clickLogin();
 //	}
 //
 //	@Then("Validate user")
 //	public void validate_user() throws InterruptedException {
-//	   driver.findElement(By.id("logout")).click();
+//	   lp.clickLogout();
 //	   Thread.sleep(1000);
 //	   driver.quit();
 //	}

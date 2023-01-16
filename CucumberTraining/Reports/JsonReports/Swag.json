@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-16T12:21:02.112Z",
+        "line": 10,
+        "name": "Validate login page",
+        "description": "",
+        "id": "testing-swaglabs;validate-login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3261334500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Go to login page",
+            "match": {
+              "location": "stepDefinations.SwagSD.go_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 355481100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter id \"standard_user\" and Enter code \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinations.SwagSD.enter_id_and_enter_code(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 593443000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify user",
+            "match": {
+              "location": "stepDefinations.SwagSD.verify_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-16T12:21:06.438Z",
+        "line": 11,
+        "name": "Validate login page",
+        "description": "",
+        "id": "testing-swaglabs;validate-login-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1788044700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Go to login page",
+            "match": {
+              "location": "stepDefinations.SwagSD.go_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 249978700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter id \"Abishek\" and Enter code \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abishek\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinations.SwagSD.enter_id_and_enter_code(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//span[@class\u003d\u0027title\u0027][text()\u003d\u0027Products\u0027]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ABIPC\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)\r\n\tat pagefactory.SwagLabsPF.verify(SwagLabsPF.java:31)\r\n\tat stepDefinations.SwagSD.verify_user(SwagSD.java:38)\r\n\tat ✽.Verify user(file:///C:/Users/kaset/git/HD-SupplyPracise/CucumberTraining/src/test/resources/Features/SwagLabs.feature:6)\r\n",
+              "duration": 5915770900,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Verify user",
+            "match": {
+              "location": "stepDefinations.SwagSD.verify_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing SwagLabs",
+    "description": "",
+    "id": "testing-swaglabs",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SwagLabs.feature",
+    "tags": []
+  }
+]

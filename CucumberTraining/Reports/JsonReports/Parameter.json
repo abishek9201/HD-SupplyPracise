@@ -1,0 +1,256 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-16T10:56:11.625Z",
+        "line": 12,
+        "name": "Checking the login",
+        "description": "",
+        "id": "login-parameters;checking-the-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4642584200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Naviagte to login page",
+            "match": {
+              "location": "stepDefinations.ParametersSDPF.naviagte_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29818400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate login page",
+            "match": {
+              "location": "stepDefinations.ParametersSDPF.validate_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 349428900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter \"Abishek\" and \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abishek\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinations.ParametersSDPF.enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77494400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on login Bar",
+            "match": {
+              "location": "stepDefinations.ParametersSDPF.Click_on_login_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2242325500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate user",
+            "match": {
+              "location": "stepDefinations.ParametersSDPF.validate_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-16T10:56:19.103Z",
+        "line": 13,
+        "name": "Checking the login",
+        "description": "",
+        "id": "login-parameters;checking-the-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2747372800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Naviagte to login page",
+            "match": {
+              "location": "stepDefinations.ParametersSDPF.naviagte_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7999000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate login page",
+            "match": {
+              "location": "stepDefinations.ParametersSDPF.validate_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204531100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter \"Ganesh\" and \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ganesh\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinations.ParametersSDPF.enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73505500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on login Bar",
+            "match": {
+              "location": "stepDefinations.ParametersSDPF.Click_on_login_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2203613400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate user",
+            "match": {
+              "location": "stepDefinations.ParametersSDPF.validate_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-16T10:56:24.354Z",
+        "line": 14,
+        "name": "Checking the login",
+        "description": "",
+        "id": "login-parameters;checking-the-login;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2856450700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Naviagte to login page",
+            "match": {
+              "location": "stepDefinations.ParametersSDPF.naviagte_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9464100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate login page",
+            "match": {
+              "location": "stepDefinations.ParametersSDPF.validate_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203172700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter \"Chaitanya\" and \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chaitanya\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinations.ParametersSDPF.enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78864400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on login Bar",
+            "match": {
+              "location": "stepDefinations.ParametersSDPF.Click_on_login_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2162229400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate user",
+            "match": {
+              "location": "stepDefinations.ParametersSDPF.validate_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Parameters",
+    "description": "",
+    "id": "login-parameters",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Parameters.feature",
+    "tags": []
+  }
+]

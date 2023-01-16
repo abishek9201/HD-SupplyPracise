@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="18.344">
+    <testcase classname="Login Parameters" name="Checking the login" time="7.457">
+        <system-out><![CDATA[Given Naviagte to login page................................................passed
+And Validate login page.....................................................passed
+When Enter "Abishek" and "12345"............................................passed
+And Click on login Bar......................................................passed
+Then Validate user..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Parameters" name="Checking the login 2" time="5.242">
+        <system-out><![CDATA[Given Naviagte to login page................................................passed
+And Validate login page.....................................................passed
+When Enter "Ganesh" and "12345".............................................passed
+And Click on login Bar......................................................passed
+Then Validate user..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Parameters" name="Checking the login 3" time="5.317">
+        <system-out><![CDATA[Given Naviagte to login page................................................passed
+And Validate login page.....................................................passed
+When Enter "Chaitanya" and "12345"..........................................passed
+And Click on login Bar......................................................passed
+Then Validate user..........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
