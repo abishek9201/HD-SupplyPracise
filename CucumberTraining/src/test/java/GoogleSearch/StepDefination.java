@@ -1,6 +1,8 @@
 package GoogleSearch;
 
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +21,9 @@ public class StepDefination {
 	public void google_is_open() {
 		System.setProperty("webdriver.chrome.driver", "D:\\Lti\\Software\\chromedriver_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://www.google.com/");
+		
 	}
 	@When("Text is entered")
 	public void text_is_entered() {
