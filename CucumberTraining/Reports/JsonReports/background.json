@@ -1,0 +1,347 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8954231400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.HookSD.beforeSteps()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "login page",
+            "match": {
+              "location": "stepDefinations.BackgroundSD.login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1009000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.HookSD.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-17T11:47:57.393Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3293015200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.BackgroundSD.setupBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1411398600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.HookSD.setupBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "verify valid data",
+        "description": "",
+        "id": "checking-background;verify-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 222893700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.BackgroundSD.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 246300500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.HookSD.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 378400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.HookSD.tearDown2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1405028800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1004300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.HookSD.beforeSteps()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "Enter data",
+            "match": {
+              "location": "stepDefinations.BackgroundSD.enter_data()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.HookSD.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59682500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1048500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.HookSD.beforeSteps()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "button",
+            "match": {
+              "location": "stepDefinations.BackgroundSD.button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1010600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.HookSD.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7105071400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.HookSD.beforeSteps()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "login page",
+            "match": {
+              "location": "stepDefinations.BackgroundSD.login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.HookSD.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-17T11:48:13.121Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1332747200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.BackgroundSD.setupBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1408165800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.HookSD.setupBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "verify Wrong data",
+        "description": "",
+        "id": "checking-background;verify-wrong-data",
+        "after": [
+          {
+            "result": {
+              "duration": 202338900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.BackgroundSD.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 271065600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.HookSD.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1333200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.HookSD.tearDown2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1124928400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.HookSD.beforeSteps()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "Enter wrong data",
+            "match": {
+              "location": "stepDefinations.BackgroundSD.enter_wrong_data()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.HookSD.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63967600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.HookSD.beforeSteps()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "button",
+            "match": {
+              "location": "stepDefinations.BackgroundSD.button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinations.HookSD.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking Background",
+    "description": "",
+    "id": "checking-background",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Background.feature",
+    "tags": []
+  }
+]

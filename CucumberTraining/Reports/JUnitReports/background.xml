@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="27.552">
+    <testcase classname="Checking Background" name="verify valid data" time="15.705">
+        <system-out><![CDATA[Given login page............................................................passed
+When Enter data.............................................................passed
+Then button.................................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Checking Background" name="verify Wrong data" time="11.518">
+        <system-out><![CDATA[Given login page............................................................passed
+When Enter wrong data.......................................................passed
+Then button.................................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
