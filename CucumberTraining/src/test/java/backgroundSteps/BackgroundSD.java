@@ -1,4 +1,4 @@
-package stepDefinations;
+package backgroundSteps;
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BackgroundSD {
 	WebDriver driver;
 	@Before
-	public void setupBrowser() {
+	public void openBrowser() {
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -24,8 +24,8 @@ public class BackgroundSD {
 		driver.manage().window().maximize();
 		System.out.println("browser setup Completed");
 	}
-	@After()
-	public void tearDown1() {
+	@After
+	public void closeBrowser() {
 		System.out.println("Tear down web Application");
 		driver.quit();
 	}

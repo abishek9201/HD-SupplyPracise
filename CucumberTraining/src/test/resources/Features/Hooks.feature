@@ -1,3 +1,4 @@
+@Hooks
 Feature: Checking hooks in cucumber
 
   Scenario: Checking login with valid credentials

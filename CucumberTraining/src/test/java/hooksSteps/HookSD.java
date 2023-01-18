@@ -1,4 +1,4 @@
-package stepDefinations;
+package hooksSteps;
 
 import java.util.concurrent.TimeUnit;
 
@@ -17,7 +17,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class HookSD {
 	WebDriver driver;
-	@Before
+	@Before("@Hooks")
 	public void setupBrowser() {
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
@@ -26,12 +26,12 @@ public class HookSD {
 		driver.manage().window().maximize();
 		System.out.println("browser setup Completed");
 	}
-	@After(order=3)
+	@After(order=3,value="@Hooks")
 	public void tearDown1() {
 		System.out.println("Tear down web Application");
 		driver.quit();
 	}
-	@After(order=0)
+	@After(order=0,value="@Hooks")
 	public void tearDown2() {
 		System.out.println("Tear down 2");
 		
