@@ -3,6 +3,7 @@ package basics;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -62,7 +63,29 @@ public class CollectionsApi {
 		for(Integer k:classList.keySet()) {
 			System.out.println(k+" : "+classList.get(k));
 		}
+		List<String>names=new ArrayList<String>();
+		names.add("Abishek");
+		names.add("Chaitu");
+		names.add("Somu");
+		names.add("vasuRebel");
+		Comparator<String>com=new Comparator<String>() {
+
+		@Override
+		public int compare(String o1, String o2) {
+			if(o1.length()>o2.length()) {
+				return 1;
+			}
+			else {
+				return -1;
+			}
+		}
+		};
 		
+		Collections.sort(names,com);
+		System.out.println("___________________________________________");
+		for(String abc:names) {
+		System.out.println(abc);
+		}
 		
 		
 		
